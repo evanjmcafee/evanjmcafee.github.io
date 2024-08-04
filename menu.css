@@ -1,3 +1,34 @@
+body{
+
+background-color:teal;
+}
 h1{
   font-family: Arial;
+	text-align: right;
+background-color:silver;
+border:outset;
+border-width:5px;
+}
+table{
+	text-align: right;
+}
+th{
+	text-align: right;
+}
+a{
+color:black;
+text-decoration:none;
+font-weight:bold;
+}
+button{
+width:64px;
+background-color:silver;
+border:outset;
+border-width:5px;
+width:72px;
+}
+button:active{
+width:72px;
+border:inset;
+background-color:silver;
 }
