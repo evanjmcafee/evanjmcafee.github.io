@@ -32,5 +32,6 @@ button:active{
 width:72px;
 border:inset;
 background-color:silver;
+border-width:5px;
 }
 
