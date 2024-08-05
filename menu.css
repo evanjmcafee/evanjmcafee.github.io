@@ -24,6 +24,7 @@ button{
 width:64px;
 background-color:silver;
 border:outset;
+border-color:silver;
 border-width:5px;
 width:72px;
 }
