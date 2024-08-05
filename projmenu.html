@@ -3,6 +3,14 @@
 <style>
 h2{
 text-align: center;
+margin-left:auto;
+margin-right:auto;
+  font-family: Arial;
+background-color:silver;
+border:outset;
+border-color:silver;
+border-width:5px;
+width: 256px;
 }
 table{
 margin-left: auto;
@@ -14,8 +22,10 @@ button{
 img{
 width:64;
 }
-
-button{
+body{
+text-align:center;
+}
+button#reg{
 width:128px;
 height:128px;
 font-size:16px;
@@ -24,26 +34,58 @@ background-color:silver;
 border:outset;
 border-width:5px;
 border-color:silver;
+color:black;
+text-decoration:none;
+font-weight:bold;
 }
-button:active{
+button#reg:active{
 width:128px;
 border:inset;
 background-color:silver;
 border-color:silver;
 border-width:5px;
+color:black;
+text-decoration:none;
+font-weight:bold;
 }
+body{
+text-align: center;
+}
+button#yt{
+width:260px;
+border:outset;
+background-color:silver;
+border-color:silver;
+border-width:5px;
+color:black;
+text-decoration:none;
+font-weight:bold;
+font-size:16px;
+}
+button#yt:active{
+width:260px;
+border:inset;
+background-color:silver;
+border-color:silver;
+border-width:5px;
+color:black;
+text-decoration:none;
+font-weight:bold;
+}
+a{
 
-
+}
 </style>
 </head>
 <body>
 <h2>I like to work on:</h2>
 <h3>
     <table>
-      <th><a href="https://evanjmcafee-sci.blogspot.com/" target="_PARENT"><button><img src="w95_16.ico"></br>Computers</button></a></th>
-      <th><a href="https://evanmcafeewoodwork.blogspot.com/" target="_PARENT"><button><img src="wxp_42.ico"></br>Wood</button></a></th>
-
+      <th><a href="https://evanjmcafee-sci.blogspot.com/"><button id = "reg"><img src="w95_16.ico"></br>Computers</button></a></th>
+      <th><a href="https://evanmcafeewoodwork.blogspot.com/"><button id = "reg"><img src="wxp_42.ico"></br>Wood</button></a></th>
     </table>
+<a href="https://www.youtube.com/channel/UCu39-3MZXPdUGOeWXeIUrog"><button id ="yt" ><img src="video.ico"></br>YouTube</button></a>
+
 </h3>
 </body>
 </html>
