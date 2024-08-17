@@ -21,7 +21,6 @@ text-decoration:none;
 font-weight:bold;
 }
 button{
-width:64px;
 background-color:silver;
 border:outset;
 border-color:silver;
@@ -29,9 +28,10 @@ border-width:5px;
 width:72px;
 }
 button:active{
-width:72px;
-border:inset;
+border-color:silver;
 background-color:silver;
+border:inset;
 border-width:5px;
+width:72px;
 }
 

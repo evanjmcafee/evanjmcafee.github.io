@@ -2,6 +2,24 @@ body{
   margin: 0;
 overflow-x: hidden;
 }
-div#info{
-width= 256px;
+table#frontpage{
+width: 100%;
+height:100%;
+
+}
+img#Evan{
+
+    height: 100%;
+text-align: left;
+}
+th{
+text-align: left;
+height:100%;
+width:50%;
+overflow-y: hidden;
+  vertical-align:top;
+font-family:arial;
+}
+h3{
+font-size:24;
 }
